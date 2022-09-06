@@ -55,7 +55,7 @@ ROOT_URLCONF = 'MTV_JMR.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['C:/Users/javim/Documents/Javi/Coderhouse/Python/1erEntregableCoder/MTV_JavierMartinezRiera/MTV_JMR/Familiares/Templates/'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
