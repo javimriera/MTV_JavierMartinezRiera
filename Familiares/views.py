@@ -1,4 +1,3 @@
-from django.shortcuts import render
 from django.template import Template, Context, loader
 from Familiares.models import Familia
 from django.http import HttpResponse
