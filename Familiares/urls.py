@@ -1,0 +1,6 @@
+from django.urls import path
+from Familiares.views import listar_familiares
+
+urlpatterns = [
+    path('Familiares/', listar_familiares),
+]
