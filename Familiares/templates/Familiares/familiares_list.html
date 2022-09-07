@@ -7,6 +7,10 @@
     <title>Document</title>
 </head>
 <body>
- Hola!
+    Listado de Familiares:
+    {% for familiar in Familiares %}
+    <p>{{ familiar.nombre }}</p>
+    {% endfor %}
+
 </body>
 </html>
