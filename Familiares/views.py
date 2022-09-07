@@ -12,3 +12,10 @@ def listar_familiares(request):
 
     return HttpResponse(documento_html)
     
+def probar_template(request):
+    with open('C:\Users\javim\Documents\Javi\Coderhouse\Python\1erEntregableCoder\MTV_JavierMartinezRiera\MTV_JMR\Familiares\templates\Familiares\familiares_list.html') as archivo:
+        plantilla = Template(archivo.read())
+    contexto = Context()
+    documento_html= plantilla.render(contexto)
+    
+    return HttpResponse(documento_html)
