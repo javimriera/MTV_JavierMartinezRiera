@@ -4,10 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>PrimerMVT</title>
 </head>
 <body>
-  Holaa
-
+Lista de familiares:
+{%for pariente in familiar%}
+<p><b>Nombre:</b> {{pariente.nombre_completo}}<br><b>Edad:</b> {{pariente.edad}} años<br><b>Fecha de nacimiento:</b> {{pariente.fecha_de_nacimiento}}</p>
+{%endfor%}   
 </body>
 </html>
